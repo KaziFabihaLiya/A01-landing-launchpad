@@ -1,5 +1,11 @@
 *{
     margin: 0px auto;
+
+}
+main{
+    background: linear-gradient(180deg, #ffffff 0%, rgba(214, 221, 237, 1) 100%);
+
+
 }
 .text-black{
     color: #252432;
@@ -83,7 +89,7 @@
 
 }
 .action-text{
-    padding: 61.5px;
+    padding: 61.5px 0px;
 }
 .action-description{
     font-size: 24px;
@@ -94,4 +100,70 @@
     font-size: 42px;
     font-weight: 700;
     padding-bottom: 23px ;
+}
+.round-banner-section{
+    max-width: 1140px;
+
+    background-color:rgba(78, 71, 255, 0.1);
+    justify-items: center;
+    border-radius: 24px;
+    margin: 0px 159px 137px 141px;
+    padding: 50px 142px;
+    text-align: center;
+}
+.num-all{
+    display: flex;
+    gap: 158px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+
+}
+.number{
+    font-size: 60px;
+    font-weight: 700;
+}
+.num-description{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.ban-title{
+    font-weight: 700;
+    font-size: 38px;
+}
+.form-section{
+    display: flex;
+    margin: 92.53px 150px;
+    gap: 115px;
+}
+.form-title{
+    font-size: 97px;
+    font-weight: 700;
+}
+label[for="name"], [for="email"],[for="message"] {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.label{
+    margin: 10px;
+}
+input[type="email"], [type="text"]{
+    padding: 20px 0px 20px 32px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px 19px 0px;
+    max-height: 70px;
+}
+textarea[name="message"]{
+    padding: 20px 0px 20px 32px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px 19px 0px;
+}
+.form-details .btn-primary{
+    padding: 19px 201px;
+}
+.form-details{
+    width: 497px;
 }
