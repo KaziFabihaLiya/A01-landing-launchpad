@@ -192,10 +192,11 @@ input[type="email"],
 [type="text"] {
     padding: 20px 0px 20px 32px;
     border-radius: 10px;
-    border: none;
+    border: solid;
     margin: 10px 0px 19px 0px;
     max-height: 70px;
     width: 465px;
+    border-color: #D6DDED;
 }
 input::placeholder {
     color: rgba(37, 36, 50, 0.5);
@@ -232,18 +233,18 @@ textarea::placeholder {
 }
 
 .hero-section .btn-primary {
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: #4E47FF;
     border: none;
     color: #fff;
     text-align: center;
-    font-weight: 700;
+    padding: 12px 36px;
+    font-weight: 400;
     font-size: 16px;
-    padding: 16px;
-    width: 220px;
+    width: 195px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 36px;
+    margin: 20px 0px;
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
     cursor: pointer;
     display: inline-block;
@@ -278,7 +279,7 @@ textarea::placeholder {
 
 .hero-des {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
