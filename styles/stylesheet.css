@@ -16,6 +16,9 @@ main{
 .primary-color{
     color: #4E47FF;
 }
+.align-center{
+
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -136,10 +139,12 @@ main{
     display: flex;
     margin: 92.53px 150px;
     gap: 115px;
+    padding: 71px 0px;
 }
 .form-title{
     font-size: 97px;
     font-weight: 700;
+      margin: auto;
 }
 label[for="name"], [for="email"],[for="message"] {
     font-size: 18px;
@@ -155,6 +160,7 @@ input[type="email"], [type="text"]{
     border: none;
     margin: 10px 0px 19px 0px;
     max-height: 70px;
+    width: 497px;
 }
 textarea[name="message"]{
     padding: 20px 0px 20px 32px;
@@ -167,4 +173,63 @@ textarea[name="message"]{
 }
 .form-details{
     width: 497px;
+}
+.hero-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.img-card2{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+    margin: 20px 0px 0px 0px;
+    background-image: url(/Assets/wc-big.png);
+}
+.hero-section{
+    justify-items: center;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    max-width: 1140px;
+    max-height: 696.77px;
+    padding: 71px 150px;
+    margin: 0px 149px 0px 151px;
+}
+.foot-section{
+    background-color: #FFFFFF;
+    margin: 104px 455px 103px 454px;
+    text-align: center;
+}
+.foot-section ul{
+    display: flex;
+    gap:48px;
+    padding-left: 0px;
+    margin: 0px 520px 103px 519px;
+
+}
+.foot-section .foot-list li{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    justify-content: space-between;
+}
+.foot-section .foot-list li a {
+    text-decoration: none;
+}
+.foot-logo{
+    font-size: 100px;
+    margin-bottom: 8px;
+}
+.foot-description{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
