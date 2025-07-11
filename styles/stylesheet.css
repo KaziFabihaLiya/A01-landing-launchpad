@@ -363,7 +363,7 @@ textarea::placeholder {
 
 /* review section */
 .img-card3 {
-    background-image: url(/Assets/avatar.png);
+    background-image: url(../Assets/avatar.png);
     width: 40px;
     height: 40px;
     border-radius: 999px;
